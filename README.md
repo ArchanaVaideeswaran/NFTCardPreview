@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://archanavaideeswaran.github.io/NFTCardPreview/)
+- Solution URL: [Frontend Mentor NFT Preview Card Component Challenge](https://www.frontendmentor.io/solutions/nft-preview-card-component-CRhRsAr_X)
+- Live Site URL: [NFT Card Preview](https://archanavaideeswaran.github.io/NFTCardPreview/)
 
 ## My process
 
