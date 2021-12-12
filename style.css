@@ -1,0 +1,139 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card{
+    width: 250px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 620px;
+    padding: 5px;
+    background-color: hsl(216, 50%, 16%);
+    text-align: left;
+    box-shadow: black;
+    border-radius: 7px;
+}
+
+.card-img{
+    margin: 10px;
+    width: 230px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.card-img:hover{
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0.3;
+}
+
+.card-display-img{
+    width: 230px;
+    height: 200px;
+    border-radius: 5px;
+    background: no-repeat;
+}
+
+.card-hover-img{
+    display: none;
+}
+
+.card-img:hover .card-display-img{
+    display: none;
+}
+
+.card-img:hover .card-hover-img{
+    border-radius: 5px;
+    background: no-repeat;
+    align-self: center;
+    display: block;
+}
+
+.card-title{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.card-text{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    color: hsl(215, 51%, 70%);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nft-price{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    color: hsl(0, 0%, 100%);
+    grid-column: span;
+    align-content: stretch;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.price{
+    color: hsl(178, 100%, 50%);
+}
+
+.card-line{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.nft-creator{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.nft-creator-avatar{
+    width: 25px;
+    height: 25px;
+    background: no-repeat;
+    align-content: center;
+    margin-right: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: white;
+}
+
+.nft-creator-profile{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    text-decoration: none;
+}
+
+.nft-creator-profile:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 100;
+    color: hsl(0, 0%, 100%);
+}
+
+footer a{
+    color: hsl(0, 0%, 100%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: hsl(215, 51%, 70%);
+}
